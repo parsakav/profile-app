@@ -17,8 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ### Image of the program execution:
-<img src="https://github.com/parsakav/profile-app/blob/master/screenshut.jpg
-" alt="Program Execution" height="300" />
-
-![Program Execution]()
+![Program Execution](https://github.com/parsakav/profile-app/blob/master/screenshut.jpg)
 
