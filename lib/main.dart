@@ -7,6 +7,7 @@ void main() {
  runApp(new MaterialApp(
 
   home: Scaffold(
+    appBar: ,
 backgroundColor: Colors.teal,
     body:Center(
       child: Column(
@@ -67,10 +68,18 @@ mainAxisAlignment: MainAxisAlignment.center,
             margin: EdgeInsets.symmetric(horizontal: 30),
             child: ListTile(
               leading: Icon(Icons.email, color: Colors.teal),
-              title: Text('Parsakavianpour@gmail.com'),
-              onTap: ()=>_launchURL("mailto:parsakavianpour@gmail.com"),
+              title: Align(
+                alignment: Alignment.centerLeft, // چپ‌چین کردن متن
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text('Parsakavianpour@gmail.com'),
+                ),
+              ),
+              onTap: () => _launchURL("mailto:parsakavianpour@gmail.com"),
             ),
-          ),
+
+
+    ),
 
 
         ],
